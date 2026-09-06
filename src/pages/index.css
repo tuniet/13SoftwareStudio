@@ -128,7 +128,7 @@ a:focus-visible {
 
 /* ---------- Type primitives ---------- */
 .label {
-	font-size: 9px;
+	font-size: 13px;
 	letter-spacing: 0.32em;
 	text-transform: uppercase;
 	color: var(--nimbus);
@@ -179,6 +179,7 @@ a:focus-visible {
 	padding: 7px 13px;
 	border: 1px solid rgba(139, 156, 176, 0.4);
 	color: var(--nimbus);
+	font-weight: 1000;
 }
 
 .badge--gilt {
@@ -202,6 +203,7 @@ a:focus-visible {
 	border: 1px solid transparent;
 	cursor: pointer;
 	transition: background 0.3s, border-color 0.3s, color 0.3s;
+	font-weight: 1000;
 }
 
 .btn--solid {
@@ -391,7 +393,7 @@ a:focus-visible {
 
 .wordmark__name {
 	font-family: var(--ui);
-	font-size: 9px;
+	font-size: 11px;
 	letter-spacing: 0.3em;
 	text-transform: uppercase;
 	color: var(--nimbus);
@@ -503,7 +505,7 @@ a:focus-visible {
 
 .deliverable__num {
 	font-family: var(--display);
-	font-size: 15px;
+	font-size: 21px;
 	color: var(--gilt);
 	font-feature-settings: "tnum";
 }
@@ -555,10 +557,11 @@ a:focus-visible {
 	color: var(--gilt);
 	border: 1px solid var(--gilt-line);
 	line-height: 16px;
+	font-weight: 1000;
 }
 
 .plan__name {
-	font-size: 9px;
+	font-size: 11px;
 	letter-spacing: 0.3em;
 	text-transform: uppercase;
 	color: var(--nimbus);
@@ -969,5 +972,9 @@ a:focus-visible {
 
 	.btn--gilt-outline {
 		display: none;
+	}
+
+	.guarantee__note {
+		padding: 0px 18px 0px 18px;
 	}
 }
